@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-m365-bridge",
+  "version": "1.0.0",
+  "description": "Microsoft Graph API Bridge connecting OneDrive (Cloud Files-on-demand) and OneNote to Antigravity AI agent",
+  "main": "README.md",
+  "scripts": {
+    "login": "npx -y @softeria/ms-365-mcp-server --preset files,onenote --login",
+    "list-permissions": "npx -y @softeria/ms-365-mcp-server --preset files,onenote --list-permissions"
+  },
+  "keywords": [
+    "mcp",
+    "antigravity",
+    "microsoft-graph",
+    "onedrive",
+    "onenote"
+  ],
+  "author": "Smart AI Life Lab",
+  "license": "MIT"
+}

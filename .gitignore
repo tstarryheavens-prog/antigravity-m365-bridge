@@ -1,0 +1,12 @@
+# Logs
+*.log
+logs/
+
+# Secrets & Config
+.env
+.token-cache.json
+.selected-account.json
+
+# System Files
+.DS_Store
+node_modules/

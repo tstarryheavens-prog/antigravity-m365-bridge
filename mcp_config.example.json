@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ms-365": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@softeria/ms-365-mcp-server",
+        "--preset",
+        "files,onenote"
+      ],
+      "env": {
+        "MS365_MCP_CLIENT_ID": "YOUR_CLIENT_ID_HERE",
+        "MS365_MCP_TENANT_ID": "consumers"
+      }
+    }
+  }
+}
